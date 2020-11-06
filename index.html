@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test Page</title>
+
+    <!-- This is my personal Cloud-Hosted player link, it will stop working once testing is complete. -->
+    <!-- Please replace with your Cloud-Hosted Player. Do not use in a Production Environment-->	
+    <script src="https://cdn.jwplayer.com/libraries/WUAzyxmA.js"></script>
+    <!-- This is my personal Cloud-Hosted player link, it will stop working once testing is complete. -->
+    <!-- Please replace with your Cloud-Hosted Player. Do not use in a Production Environment-->	
+
+  </head>
+
+    <body>
+
+	    	    <!--  Title -->
+                <h1>JW API Testing Tool</h1>
+
+                <!-- Submission Form -->
+                <form id="myForm">
+                  <label for="mediaID">Please Enter Your Media ID: </label>
+                  <input type="text" id="mediaID" name="mediaID" value=""><br><br>
+                  <input type="submit" value="Submit">
+                </form> 
+                
+                <!-- Returned Information -->
+                <h2>Media Object</h2>
+                <div id="media"></div>
+          
+                <h2>Poster Images</h2>
+                <div id="posterImages"></div>
+
+	    <script src="./index.js" ></script>
+    </body>
+</html>
